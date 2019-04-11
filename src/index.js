@@ -4,7 +4,7 @@ import CommentDetail from "./CommentDetail";
 
 const App = () => {
   return (
-    <div className="ui container comments">
+    <div className="ui container comments" style={{ paddingTop: "1rem" }}>
       <CommentDetail name="Tony" time="6:00PM" text="Hello" date="4/6/19" />
       <CommentDetail
         name="Chris"
